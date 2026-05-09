@@ -17,7 +17,7 @@ namespace Testing
 
         public IEnumerable<Product> GetAllProducts()
         {
-            return _conn.Query<Product>("SELECT * FROM PRODUCTS;");
+            return _conn.Query<Product>("SELECT * FROM Products;");
         }
     }
 }
